@@ -2,7 +2,7 @@
 from fastapi import FastAPI, Request
 import time
 from fastapi import Response
-from .rag.retriever import get_response
+from rag.retriever import get_response
 
 app = FastAPI()
 

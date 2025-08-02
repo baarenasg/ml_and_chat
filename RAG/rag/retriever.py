@@ -12,7 +12,9 @@ from llama_index.core import ChatPromptTemplate
 from llama_index.core.llms import ChatMessage, MessageRole
 from llama_index.llms.openai import OpenAI
 
-connection_string = "postgresql://postgres-user:postgres-pass@localhost:5432"
+connection_string = os.getenv("PG_CONNECTION_STRING")
+
+
 url = make_url(connection_string)
 db_name = "vector_bd_movies"
 

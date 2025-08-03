@@ -181,6 +181,7 @@ log.txt
 venv
 .venv/
 .venv-*/
+.env.local
 .ubuntu-venv
 env
 .env/

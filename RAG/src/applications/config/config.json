@@ -1,0 +1,7 @@
+{
+    "logger": {},
+    "url_prefix": "",
+    "postgresql":{},
+    "openai":{},
+    "retriever":{}
+}
